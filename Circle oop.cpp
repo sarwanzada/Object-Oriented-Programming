@@ -33,6 +33,10 @@ int main()
 {
     cout<<"Circle 1 : " <<endl;
     circle circle1;
+    double userradius;
+    cout<<"Enter Radius : "<<endl;
+    cin>>userradius;
+    circle1.setradius(userradius);
     cout<<"Radius : "<<circle1.getradius()<<endl;
     cout<<"Area : "<<circle1.getarea()<<endl;
     cout<<"Perimeter : "<<circle1.getperimeter()<<endl<<endl;
